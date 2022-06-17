@@ -22,9 +22,9 @@ spec:
             - containerPort: 8090
           env:
             - name: KAFKA_BOOTSTRAP_SERVER
-              value: "192.168.1.11:9092"
+              value: "10.0.0.245:9092"
             - name: KAFKA_ORDERS_TOPIC
-              value: "test"
+              value: "keda-test"
 ---
 apiVersion: v1
 kind: Service

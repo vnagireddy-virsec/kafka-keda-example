@@ -20,6 +20,6 @@ spec:
           imagePullPolicy: Never
           env:
             - name: KAFKA_BOOTSTRAP_SERVER
-              value: "192.168.1.7:9092"
+              value: "10.0.0.245:9092"
             - name: KAFKA_ORDERS_TOPIC
-              value: "test"
+              value: "keda-test"
